@@ -1,0 +1,90 @@
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.staticwebassets.runtime.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.exe
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.deps.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.runtimeconfig.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfoInputs.cache
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfo.cs
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.csproj.CoreCompileInputs.cache
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cache
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cs
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.BlancoITELEC1C.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.build.BlancoITELEC1C.props
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlancoITELEC1C.props
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlancoITELEC1C.props
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\bundle\BlancoITELEC1C.styles.css
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\projectbundle\BlancoITELEC1C.bundle.scp.css
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\refint\BlancoITELEC1C.dll
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.genruntimeconfig.cache
+C:\Users\divin\source\repos\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\ref\BlancoITELEC1C.dll
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfoInputs.cache
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfo.cs
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.csproj.CoreCompileInputs.cache
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cache
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cs
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\refint\BlancoITELEC1C.dll
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.staticwebassets.runtime.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.exe
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.deps.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.runtimeconfig.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.BlancoITELEC1C.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.build.BlancoITELEC1C.props
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlancoITELEC1C.props
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlancoITELEC1C.props
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\bundle\BlancoITELEC1C.styles.css
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\projectbundle\BlancoITELEC1C.bundle.scp.css
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.genruntimeconfig.cache
+C:\Users\divin\Downloads\COLLEGE\3rd Year\Sem 1\ELEC\1st Quarter\Lab Act\FINAL\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\ref\BlancoITELEC1C.dll
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\appsettings.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.staticwebassets.runtime.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.exe
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.deps.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.runtimeconfig.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\bin\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfoInputs.cache
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.AssemblyInfo.cs
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.csproj.CoreCompileInputs.cache
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cache
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.RazorAssemblyInfo.cs
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.BlancoITELEC1C.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.build.BlancoITELEC1C.props
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BlancoITELEC1C.props
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BlancoITELEC1C.props
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\bundle\BlancoITELEC1C.styles.css
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\scopedcss\projectbundle\BlancoITELEC1C.bundle.scp.css
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.dll
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\refint\BlancoITELEC1C.dll
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.pdb
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\BlancoITELEC1C.genruntimeconfig.cache
+C:\Users\divin\ITELEC1C\BlancoITELEC1C\BlancoITELEC1C\BlancoITELEC1C\obj\Debug\net6.0\ref\BlancoITELEC1C.dll
