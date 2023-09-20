@@ -78,5 +78,32 @@ namespace BlancoITELEC1C.Controllers
             InstructorList.Add(newInstructor);
             return View("Index", InstructorList);
         }
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == id);
+
+            if (instructor != null)
+                return View(instructor);
+
+            return NotFound();
+        }
+        [HttpPost]
+        public IActionResult Edit(Instructor instructorChange) 
+        {
+            Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
+
+            if (instructor != null)
+            {
+                instructor.InstructorId = instructorChange.InstructorId;
+                instructor.InstructorFirstName = instructorChange.InstructorFirstName;
+                instructor.InstructorLastName = instructorChange.InstructorLastName;
+                instructor.InstructorIsTenured = instructorChange.InstructorIsTenured;
+                instructor.Rank = instructorChange.Rank;
+                instructor.HiringDate = instructorChange.HiringDate;
+                
+            }
+            return View("Index", InstructorList);
+        }
     }
 }

@@ -4,8 +4,8 @@
 @{
 }
 @model Student;
-<h1 class="title">Create a new Student</h1>
-<form asp-action="AddStudent" asp-controller="Student" method="post">
+<h1 class="title">Edit Student</h1>
+<form asp-action="Edit" asp-controller="Student" method="post">
     <div class="form-group">
         <label asp-for="Id">Id</label>
         <input class="form-control" asp-for="Id" style="color:black" />
@@ -44,7 +44,8 @@
     <br />
     
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="button" onclick="history.back()" class="btn btn-primary">Cancel</button>
     </div>
     
 </form>
