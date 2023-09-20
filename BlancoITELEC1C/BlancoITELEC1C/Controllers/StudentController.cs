@@ -49,7 +49,7 @@ namespace BlancoITELEC1C.Controllers
             return View("Index", StudentList);
         }
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult UpdateStudent(int id)
         {
             Student? student = StudentList.FirstOrDefault(st => st.Id == id);
 
@@ -59,7 +59,7 @@ namespace BlancoITELEC1C.Controllers
             return NotFound();
         }
         [HttpPost]
-        public IActionResult Edit(Student studentChange)
+        public IActionResult UpdateStudent(Student studentChange)
         {
             Student? student = StudentList.FirstOrDefault(st => st.Id == studentChange.Id);
             if(student != null)

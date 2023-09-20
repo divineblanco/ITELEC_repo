@@ -79,7 +79,7 @@ namespace BlancoITELEC1C.Controllers
             return View("Index", InstructorList);
         }
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult UpdateInstructor(int id)
         {
             Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == id);
 
@@ -89,7 +89,7 @@ namespace BlancoITELEC1C.Controllers
             return NotFound();
         }
         [HttpPost]
-        public IActionResult Edit(Instructor instructorChange) 
+        public IActionResult UpdateInstructor(Instructor instructorChange) 
         {
             Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
 
