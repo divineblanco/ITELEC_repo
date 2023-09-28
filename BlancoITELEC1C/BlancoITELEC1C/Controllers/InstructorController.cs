@@ -1,65 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BlancoITELEC1C.Models;
+using BlancoITELEC1C.Services;
 
 namespace BlancoITELEC1C.Controllers
 {
 
     public class InstructorController : Controller
     {
-        List<Instructor> InstructorList = new List<Instructor>()
+        private readonly IMyFakeDataService _dummyData;
+
+        public InstructorController(IMyFakeDataService dummyData)
         {
-
-            new Instructor()
-            {
-                InstructorId = 1,
-                InstructorFirstName = "Gabriel",
-                InstructorLastName = "Montano",
-                InstructorIsTenured = true,
-                HiringDate = DateTime.Parse("2022-08-26"),
-                Rank = Rank.Instructor
-            },
-
-            new Instructor()
-            {
-                InstructorId = 2,
-                InstructorFirstName = "Gabriel",
-                InstructorLastName = "Montano",
-                InstructorIsTenured = true,
-                HiringDate = DateTime.Parse("2022-08-26"),  
-                Rank = Rank.Professor
-            },
-
-            new Instructor()
-            {
-                InstructorId = 3,
-                InstructorFirstName = "Zyx",
-                InstructorLastName = "Montano",
-                InstructorIsTenured = true,
-                HiringDate = DateTime.Parse("2022-08-07"),
-                Rank = Rank.AssistantProfesor
-            },
-
-            new Instructor()
-            {
-                InstructorId = 4,
-                InstructorFirstName = "Aerdriel",
-                InstructorLastName = "Montano",
-                InstructorIsTenured = true,
-                HiringDate = DateTime.Parse("2020-01-25"),
-                Rank = Rank.AssociateProfessor
-            },
-
-        };
-        
+            _dummyData = dummyData;
+        }
 
         public IActionResult Index()
         {
-            return View(InstructorList);
+            return View(_dummyData.InstructorList);
         }
 
         public IActionResult ShowDetail(int id)
         {
-            Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == id);
+            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
 
             if (instructor != null)
                 return View(instructor);
@@ -75,13 +37,13 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult AddInstructor(Instructor newInstructor)
         {
-            InstructorList.Add(newInstructor);
-            return View("Index", InstructorList);
+            _dummyData.InstructorList.Add(newInstructor);
+            return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult UpdateInstructor(int id)
         {
-            Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == id);
+            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
 
             if (instructor != null)
                 return View(instructor);
@@ -91,7 +53,7 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult UpdateInstructor(Instructor instructorChange) 
         {
-            Instructor? instructor = InstructorList.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
+            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
 
             if (instructor != null)
             {
@@ -103,7 +65,28 @@ namespace BlancoITELEC1C.Controllers
                 instructor.HiringDate = instructorChange.HiringDate;
                 
             }
-            return View("Index", InstructorList);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteInstructor(int id)
+        {
+            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
+
+            if (instructor != null)
+                return View(instructor);
+
+            return NotFound();
+        }
+
+        [HttpPost]
+        public IActionResult DeleteInstructor(Student newInstructor)
+        {
+            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == newInstructor.Id);
+
+            if (instructor != null)
+                _dummyData.InstructorList.Remove(instructor);
+            return RedirectToAction("Index");
         }
     }
 }
