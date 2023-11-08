@@ -5,39 +5,36 @@
 }
 @model Student;
 <h1 class="title">Create a new Student</h1>
+<div asp-validation-summary="All" class="text-danger"></div>
 <form asp-action="AddStudent" asp-controller="Student" method="post">
-    <div class="form-group">
-        <label asp-for="Id">Id</label>
-        <input class="form-control" asp-for="Id" style="color:black" />
-    </div>
 
     <div class="form-group">
-        <label asp-for="FirstName">First Name</label>
+        <label asp-for="FirstName"></label>
         <input class="form-control" asp-for="FirstName" placeholder="Enter First Name" style="color:black" />
     </div>
 
     <div class="form-group">
-        <label for="LastName">Last Name</label>
+        <label asp-for="LastName"></label>
         <input class="form-control" asp-for="LastName" placeholder="Enter Last Name" style="color:black" />
     </div>
 
     <div class="form-group">
-        <label for="Course">Course</label>
+        <label asp-for="Course"></label>
         <select asp-for="Course" asp-items="@Html.GetEnumSelectList(typeof(Course))" class="form-control" style ="color: black"></select>
     </div>
 
     <div class="form-group">
-        <label for="AdmisionDate">Admission Date</label>
+        <label asp-for="AdmissionDate"></label>
         <input asp-for="AdmissionDate" class="form-control" style="color: black" />
     </div>
 
     <div class="form-group">
-        <label for="Email">Email</label>
+        <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control" placeholder="Enter Email" style="color:black" />
     </div>
 
     <div class="form-group">
-        <label for="GPA">GPA</label>
+        <label asp-for="GPA"></label>
         <input class="form-control" asp-for="GPA" placeholder="Enter GPA" style="color:black" />
     </div>
 

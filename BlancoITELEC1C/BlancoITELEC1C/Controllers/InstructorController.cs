@@ -1,27 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BlancoITELEC1C.Models;
-using BlancoITELEC1C.Services;
+using BlancoITELEC1C.Data;
 
 namespace BlancoITELEC1C.Controllers
 {
 
     public class InstructorController : Controller
     {
-        private readonly IMyFakeDataService _dummyData;
+        private readonly AppDbContext _dbData;
 
-        public InstructorController(IMyFakeDataService dummyData)
+        public InstructorController(AppDbContext dbData)
         {
-            _dummyData = dummyData;
+            _dbData = dbData;
         }
 
         public IActionResult Index()
         {
-            return View(_dummyData.InstructorList);
+            return View(_dbData.Instructors);
         }
 
         public IActionResult ShowDetail(int id)
         {
-            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
+            Instructor? instructor = _dbData.Instructors.FirstOrDefault(it => it.InstructorId == id);
 
             if (instructor != null)
                 return View(instructor);
@@ -37,13 +37,17 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult AddInstructor(Instructor newInstructor)
         {
-            _dummyData.InstructorList.Add(newInstructor);
+            if(!ModelState.IsValid)
+                return View();
+
+            _dbData.Instructors.Add(newInstructor);
+            _dbData.SaveChanges();
             return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult UpdateInstructor(int id)
         {
-            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
+            Instructor? instructor = _dbData.Instructors.FirstOrDefault(it => it.InstructorId == id);
 
             if (instructor != null)
                 return View(instructor);
@@ -53,7 +57,7 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult UpdateInstructor(Instructor instructorChange) 
         {
-            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
+            Instructor? instructor = _dbData.Instructors.FirstOrDefault(it => it.InstructorId == instructorChange.InstructorId);
 
             if (instructor != null)
             {
@@ -63,7 +67,8 @@ namespace BlancoITELEC1C.Controllers
                 instructor.InstructorIsTenured = instructorChange.InstructorIsTenured;
                 instructor.Rank = instructorChange.Rank;
                 instructor.HiringDate = instructorChange.HiringDate;
-                
+                _dbData.SaveChanges();
+
             }
             return RedirectToAction("Index");
         }
@@ -71,7 +76,7 @@ namespace BlancoITELEC1C.Controllers
         [HttpGet]
         public IActionResult DeleteInstructor(int id)
         {
-            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == id);
+            Instructor? instructor = _dbData.Instructors.FirstOrDefault(it => it.InstructorId == id);
 
             if (instructor != null)
                 return View(instructor);
@@ -82,10 +87,11 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult DeleteInstructor(Student newInstructor)
         {
-            Instructor? instructor = _dummyData.InstructorList.FirstOrDefault(it => it.InstructorId == newInstructor.Id);
+            Instructor? instructor = _dbData.Instructors.FirstOrDefault(it => it.InstructorId == newInstructor.Id);
 
             if (instructor != null)
-                _dummyData.InstructorList.Remove(instructor);
+                _dbData.Instructors.Remove(instructor);
+                _dbData.SaveChanges();
             return RedirectToAction("Index");
         }
     }

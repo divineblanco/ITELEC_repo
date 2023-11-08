@@ -1,27 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BlancoITELEC1C.Models;
-using BlancoITELEC1C.Services;
+using BlancoITELEC1C.Data;
 
 namespace BlancoITELEC1C.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly IMyFakeDataService _dummyData;
+        private readonly AppDbContext _dbData;
 
-        public StudentController(IMyFakeDataService dummyData)
+        public StudentController(AppDbContext dbData)
         {
-            _dummyData = dummyData;
+            _dbData = dbData;
         }
 
         public IActionResult Index()
         {
-            return View(_dummyData.StudentList);
+            return View(_dbData.Students);
         }
 
         public IActionResult ShowDetail(int id)
         {
             //Search for the student whose id matches the given id
-            Student? student = _dummyData.StudentList.FirstOrDefault(st => st.Id == id);
+            Student? student = _dbData.Students.FirstOrDefault(st => st.Id == id);
 
             if (student != null)//was an student found?
                 return View(student);
@@ -37,13 +37,17 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult AddStudent(Student newStudent)
         {
-            _dummyData.StudentList.Add(newStudent);
+            if (!ModelState.IsValid)
+                return View();
+
+            _dbData.Students.Add(newStudent);
+            _dbData.SaveChanges();
             return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult UpdateStudent(int id)
         {
-            Student? student = _dummyData.StudentList.FirstOrDefault(st => st.Id == id);
+            Student? student = _dbData.Students.FirstOrDefault(st => st.Id == id);
 
             if (student != null)//was an student found?
                 return View(student);
@@ -53,16 +57,16 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult UpdateStudent(Student studentChange)
         {
-            Student? student = _dummyData.StudentList.FirstOrDefault(st => st.Id == studentChange.Id);
+            Student? student = _dbData.Students.FirstOrDefault(st => st.Id == studentChange.Id);
             if(student != null)
             {
-                student.Id = studentChange.Id;
                 student.FirstName = studentChange.FirstName;
                 student.LastName = studentChange.LastName;  
-                student.Course = studentChange.Course;
-                student.AdmissionDate = studentChange.AdmissionDate;
                 student.Email = studentChange.Email;
+                student.Course = studentChange.Course;
                 student.GPA = studentChange.GPA;
+                student.AdmissionDate = studentChange.AdmissionDate;
+                _dbData.SaveChanges();
             }
             return RedirectToAction("Index");
         }
@@ -70,7 +74,7 @@ namespace BlancoITELEC1C.Controllers
         [HttpGet]
         public IActionResult DeleteStudent(int id)
         {
-            Student? student = _dummyData.StudentList.FirstOrDefault(st => st.Id == id);
+            Student? student = _dbData.Students.FirstOrDefault(st => st.Id == id);
 
             if (student != null)//was an student found?
                 return View(student);
@@ -81,10 +85,11 @@ namespace BlancoITELEC1C.Controllers
         [HttpPost]
         public IActionResult DeleteStudent(Student newStudent)
         {
-            Student? student = _dummyData.StudentList.FirstOrDefault(st => st.Id == newStudent.Id);
+            Student? student = _dbData.Students.FirstOrDefault(st => st.Id == newStudent.Id);
             
             if (student != null)
-                _dummyData.StudentList.Remove(student);
+                _dbData.Students.Remove(student);
+            _dbData.SaveChanges();
             return RedirectToAction("Index");
         }
     }
